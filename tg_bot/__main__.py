@@ -19,7 +19,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! If you have any questions on how to use me, read /help - and then head to @MarieSupport.
+Hi {}, my name is {}! This bot is made by @six13bit specially for @damnitzdevil.
 
 I'm a modular and powerful \group manager bot built in python3, 
 
@@ -49,8 +49,9 @@ And the following:
 DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for my creator to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+. He's just a poor student, so every little helps!
+You can donate him via bitcoins
+His address is 36w9B9w4dKJXmiTVGrjzqrTdFCsDPMFCyU ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
